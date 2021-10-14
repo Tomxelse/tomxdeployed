@@ -8,7 +8,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	background-color: #7d9b9b;
+	background-color: #ffffff;
 }
 
 .clock{
@@ -24,7 +24,7 @@ body{
 		0px -1px 2px 3px #f3eeef,
 		0px 1px 16px 7px #0c0404,
 		inset -1px -1px 2px 14px #504d4d;
-	background-color: #26f8f877;
+	background-color: #ffffff;
 	background-image: url("../images/clock.svg");
 	background-size: 32rem;
 }
