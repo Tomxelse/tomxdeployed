@@ -14,7 +14,7 @@ function setDate() {
 
 	// Setting up second hand
 	const sec = date.getSeconds();
-	const secDegree = ((sec / 60) * 360) + 90;
+	const secDegree = ((sec / 60) * 360) + 0;
 	secondHand.style.transform = `rotate(${secDegree}deg)`;
 
 	// Setting up minute hand
