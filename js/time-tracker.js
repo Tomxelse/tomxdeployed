@@ -24,7 +24,7 @@ function setDate() {
 
 	// Setting up hour hand
 	const hour = date.getHours();
-	const hourDegree = (hour * 360 / 12 + ((min * 360 / 60) / 12)) + 31;
+	const hourDegree = (hour * 360 / 24 + ((min * 360 / 60) / 24)) + 31;
 	hourHand.style.transform = `rotate(${hourDegree}deg)`;
 
 	// console.log("Date: " + (hour - 12) + ":" + min + ":" + sec + "\nDate in Degree: " + hourDegree + ":" + minDegree + ":" + secDegree);
