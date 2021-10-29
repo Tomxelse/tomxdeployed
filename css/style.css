@@ -63,10 +63,10 @@ body{
 }
 
 #second-hand{
-	height: 10px;
+	height: 2px;
 	width: 54%;
 	margin-left: 1.3%;
-	background: url("purepng.com/public/uploads/large/purepng.com-pinapplepinapplepen-pinapple-apple-penfruitvegetableheathlyfoodcliparttropical-331522772242aurac.png") repeat-y;
+	background-color: #ff0000;
 }
 
 #minute-hand{
