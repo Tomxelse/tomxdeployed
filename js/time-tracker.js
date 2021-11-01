@@ -14,17 +14,17 @@ function setDate() {
 
 	// Setting up second hand
 	const sec = date.getSeconds();
-	const secDegree = ((sec / 60) * 360) + 66;
+	const secDegree = ((sec / 60) * 360) + 155;
 	secondHand.style.transform = `rotate(${secDegree}deg)`;
 
 	// Setting up minute hand
 	const min = date.getMinutes();
-	const minDegree = ((min * 360 / 60) + (sec * 360 / 60) / 60) + 66;
+	const minDegree = ((min * 360 / 60) + (sec * 360 / 60) / 60) + 155;
 	minuteHand.style.transform = `rotate(${minDegree}deg)`;
 
 	// Setting up hour hand
 	const hour = date.getHours();
-	const hourDegree = (hour * 360 / 24 + ((min * 360 / 60) / 24)) + 66;
+	const hourDegree = (hour * 360 / 6 + ((min * 360 / 60) / 6)) + 155;
 	hourHand.style.transform = `rotate(${hourDegree}deg)`;
 
 	// console.log("Date: " + (hour - 12) + ":" + min + ":" + sec + "\nDate in Degree: " + hourDegree + ":" + minDegree + ":" + secDegree);
