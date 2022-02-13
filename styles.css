@@ -115,7 +115,7 @@ h1 {
 
 #chronoMinuteHandFinger {
   height: 50%;
-  background-color: black;
+  background-color: gold;
 }
 
 #minute {
@@ -234,8 +234,8 @@ h1 {
 
 button {
   border: 1px solid black;
-  background-color: rgb(14,6,196);
-  color: orange;
+  background-color: orange;
+  color: white;
   padding: 5px 10px;
   border-radius: 4px;
   font-size: 20px;
