@@ -75,7 +75,7 @@ h1 {
 }
 
 #secondHand {
-  background-color: gold;
+  background-color: black;
   height: 50%;
 }
 
@@ -115,7 +115,7 @@ h1 {
 
 #chronoMinuteHandFinger {
   height: 50%;
-  background-color: gold;
+  background-color: black;
 }
 
 #minute {
@@ -129,7 +129,7 @@ h1 {
 }
 
 #minuteHand {
-  background-color: gold;
+  background-color: black;
   height: 50%;
 }
 
@@ -145,7 +145,7 @@ h1 {
 }
 
 #hourHand {
-  background-color: gold;
+  background-color: black;
   height: 50%;
 }
 
@@ -233,9 +233,9 @@ h1 {
 }
 
 button {
-  border: 1px solid gold;
+  border: 1px solid black;
   background-color: rgb(14,6,196);
-  color: gold;
+  color: orange;
   padding: 5px 10px;
   border-radius: 4px;
   font-size: 20px;
