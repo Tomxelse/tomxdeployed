@@ -10,7 +10,7 @@ var tenthSecondHand = document.getElementById('tenthSecondHand');
 var chronoMinuteDial = document.getElementById('chronoMinuteDial');
 var chronoMinuteHand = document.getElementById('chronoMinuteHand');
 
-var stopwatchRunning = false;
+var stopwatchRunning = true;
 
 var autoHours;
 var autoMinutes;
@@ -86,7 +86,7 @@ document.getElementById('startStop').addEventListener('mousedown', function() {
   if (stopwatchRunning) {
     clearInterval(tenthsInterval);
     clearInterval(chronSecondsInterval);
-    stopwatchRunning = false;
+    stopwatchRunning = true;
   } else {
     tenthsInterval = setInterval(tenths, 10);
     stopwatchRunning = true;
