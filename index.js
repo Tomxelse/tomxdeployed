@@ -86,7 +86,7 @@ document.getElementById('startStop').addEventListener('mousedown', function() {
   if (stopwatchRunning) {
     clearInterval(tenthsInterval);
     clearInterval(chronSecondsInterval);
-    stopwatchRunning = true;
+    stopwatchRunning = false;
   } else {
     tenthsInterval = setInterval(tenths, 10);
     stopwatchRunning = true;
