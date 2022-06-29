@@ -49,18 +49,18 @@ h1 {
   position: absolute;
   top: 200px;
   right: 50px;
-  border: 2px solid gold;
+  border: 2px solid #000000;
 }
 
 #chronoMinuteDial {
   height: 125px;
   width: 125px;
-  background-color: black;
+  background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
   bottom: 50px;
   left: 185px;
-  border: 2px solid gold;
+  border: 2px solid #000000;
 }
 
 #second {
@@ -69,13 +69,13 @@ h1 {
   position: absolute;
   top: 0px;
   left: 249px;
-/*   background-color: black; */
+/*   background-color: #0000ff; */
   transition: transform 1s;
   transition-timing-function: linear
 }
 
 #secondHand {
-  background-color: black;
+  background-color: #0000ff;
   height: 50%;
 }
 
@@ -105,17 +105,17 @@ h1 {
 
 #smallSecondHandFinger {
   height: 50%;
-  background-color: gold;
+  background-color: #0000ff;
 }
 
 #tenthSecondFinger {
   height: 50%;
-  background-color: gold;
+  background-color: #0000ff;
 }
 
 #chronoMinuteHandFinger {
   height: 50%;
-  background-color: gold;
+  background-color: #0000ff;
 }
 
 #minute {
@@ -129,7 +129,7 @@ h1 {
 }
 
 #minuteHand {
-  background-color: black;
+  background-color: #0000ff;
   height: 50%;
 }
 
@@ -145,7 +145,7 @@ h1 {
 }
 
 #hourHand {
-  background-color: black;
+  background-color: #0000ff;
   height: 50%;
 }
 
